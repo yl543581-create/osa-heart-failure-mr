@@ -1,0 +1,30 @@
+# --- data: large GWAS summary statistics, downloaded by scripts/ ---
+# The pipeline re-downloads these, so they are not version-controlled.
+data/*.gz
+data/*.tsv
+data/*.tsv.gz
+data/DATA_MANIFEST.tsv
+
+# --- generated outputs: results are small and ARE tracked ---
+# (results/*.csv, *.tsv, *.txt are intentionally committed)
+
+# --- logs ---
+logs/*.log
+
+# --- R session artefacts ---
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+
+# --- temporary / scratch ---
+tmp/
+scratch/
+*.curltmp

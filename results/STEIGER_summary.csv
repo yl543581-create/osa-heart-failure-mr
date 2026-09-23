@@ -1,0 +1,3 @@
+set,n_snp,sum_R2_OSA,sum_R2_HF,ratio,n_correct,pct_correct,R2_ratio
+all SNPs in instrument loci,134929,1.76490294754048,1.48437545124904,1.18898688741813,65541,48.6,1.19
+independent instrument SNPs only,10,0.00294121274412763,0.000317499941411456,9.26366389566049,10,100,9.26

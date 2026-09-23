@@ -1,0 +1,18 @@
+id	trait	ncase	ncontrol	sample_size	population	sex	year
+ieu-b-40	body mass index			681275	European	Males and Females	2018
+ebi-a-GCST006867	Type 2 diabetes	61714	1178	655666	European	NA	2018
+ieu-a-2	Body mass index			339224	Mixed	Males and Females	2015
+finn-b-E4_OBESITY	Obesity	8908	209827		European	Males and Females	2021
+ieu-b-109	HDL cholesterol			403943	European	Males and Females	2020
+ebi-a-GCST005179	Homeostasis model assessment of insulin resistance			37037	European	NA	2010
+ieu-b-107	apolipoprotein A-I			393193	European	Males and Females	2020
+finn-b-E4_DM2	Type 2 diabetes	32469	183185		European	Males and Females	2021
+ieu-a-300	LDL cholesterol			173082	Mixed	Males and Females	2013
+ieu-a-302	Triglycerides			177861	Mixed	Males and Females	2013
+finn-b-I9_HYPTENS	Hypertension	55917	162837		European	Males and Females	2021
+ieu-b-4965	Colorectal cancer	5657	372016	377673	European	Males and Females	2021
+ieu-b-4970	Cellulitis	12196	474288	486484	European	Males and Females	2021
+ieu-b-4961	Oral cavity cancer	357	372016	372373	European	Males and Females	2021
+finn-b-C3_COLORECTAL_EXALLC	Colorectal cancer (all cancers excluded)	3022	174006		European	Males and Females	2021
+finn-b-M13_ARTHROSIS	Arthrosis	37233	147221		European	Males and Females	2021
+finn-b-C3_PROSTATE_EXALLC	Malignant neoplasm of prostate (all cancers excluded)	6311	74685		European	Males and Females	2021

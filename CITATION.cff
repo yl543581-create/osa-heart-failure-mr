@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "OSA and heart failure: adiposity-shared genetic architecture"
+abstract: >-
+  Analysis code for a two-sample and multivariable Mendelian randomisation study
+  examining whether the genetic association between obstructive sleep apnoea and
+  heart failure is independent of adiposity. The analysis uses the MVP and
+  FinnGen sleep-apnoea GWAS as exposure, HERMES and FinnGen heart failure as
+  outcome, and BMI for multivariable adjustment.
+version: 1.0.0
+date-released: "2026-09-22"
+license: MIT
+type: software
+authors:
+  - family-names: "Yang"
+    given-names: "Lujing"
+    affiliation: "First Affiliated Hospital of Kunming Medical University"
+  - family-names: "Yang"
+    given-names: "Xiaona"
+    affiliation: "First Affiliated Hospital of Kunming Medical University"
+keywords:
+  - Mendelian randomisation
+  - obstructive sleep apnoea
+  - heart failure
+  - adiposity
+  - body mass index
+  - colocalisation
+  - MVMR
+references:
+  - type: article
+    title: "Causal associations of obstructive sleep apnea with cardiovascular disease: a Mendelian randomization study"
+    journal: "Sleep"
+    year: 2023
+    doi: "10.1093/sleep/zsac298"
+  - type: article
+    title: "Causal associations of sleep apnea, snoring with cardiovascular diseases, and the role of body mass index: a two-sample Mendelian randomization study"
+    journal: "European Journal of Preventive Cardiology"
+    year: 2023
+    doi: "10.1093/eurjpc/zwad005"
+  - type: article
+    title: "Polygenic scores for obstructive sleep apnoea reveal pathways contributing to cardiovascular disease"
+    journal: "EBioMedicine"
+    year: 2025
+    doi: "10.1016/j.ebiom.2025.105790"

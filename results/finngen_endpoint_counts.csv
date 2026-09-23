@@ -1,0 +1,13 @@
+phenocode,phenotype,num_cases,num_controls
+ASTHMA_OBESITY,Obesity related asthma,16653,438990
+E4_OBESITY,Obesity,33933,466093
+E4_OBESITYCAL,Obesity due to excess calories,24226,466253
+E4_OBESITYDRUG,Drug-induced obesity,326,466253
+E4_OBESITYNAS,"Obesity, other/unspecified",17123,466253
+E4_OBESITYXTRMALV,Extreme obesity with alveolar hypoventilation,1519,466253
+G6_SLEEPAPNO,Sleep apnoea,62442,435243
+G6_SLEEPAPNO_INCLAVO,"Sleep apnoea, including avohilmo",69677,430509
+I9_HEARTFAIL,"Heart failure, strict",41591,458595
+I9_HEARTFAIL_AND_CHD,Heart failure and coronary heart disease,26459,409472
+I9_HEARTFAIL_AND_HYPERTCARDIOM,Heart failure and hypertrophic cardiomyopathy,622,498666
+I9_HEARTFAIL_AND_OVERWEIGHT,Heart failure and bmi 25plus,25129,204333
