@@ -11,6 +11,8 @@ version: 1.0.0
 date-released: "2026-09-22"
 license: MIT
 type: software
+doi: "10.5281/zenodo.22916622"
+repository-code: "https://github.com/yl543581-create/osa-heart-failure-mr"
 authors:
   - family-names: "Yang"
     given-names: "Lujing"

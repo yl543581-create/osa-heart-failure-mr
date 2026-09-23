@@ -1,5 +1,12 @@
 # OSA → Heart Failure: Adiposity-Shared Genetic Architecture
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22916622.svg)](https://doi.org/10.5281/zenodo.22916622)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Code repository:** <https://github.com/yl543581-create/osa-heart-failure-mr>
+**Archived release (cite this):** <https://doi.org/10.5281/zenodo.22916622>
+**Analysis plan:** deposited at OSF (see `docs/OSF_ANALYSIS_PLAN.md`)
+
 Analysis code for a two-sample and multivariable Mendelian randomisation (MR) study
 examining whether the genetic association between obstructive sleep apnoea (OSA)
 and heart failure is independent of adiposity.
@@ -30,7 +37,7 @@ be excluded. See `docs/` for full interpretation.
 | Role | Dataset | Accession | N |
 |---|---|---|---|
 | Exposure (primary) | MVP OSA, European | `GCST90475824` | 152,031 cases / 278,027 controls |
-| Exposure (meta + replication) | FinnGen R13 OSA | `G6_SLEEPAPNO_INCLAVO` | 74,697 cases |
+| Exposure (meta + replication) | FinnGen R13 OSA | `G6_SLEEPAPNO_INCLAVO` | 69,677 cases / 430,509 controls |
 | Outcome (primary) | HERMES heart failure | `GCST009541` | 47,309 / 930,014 |
 | Outcome (replication) | FinnGen R13 heart failure | `I9_HEARTFAIL` | 41,591 / 458,595 |
 | Outcome (stratified) | FinnGen HF + BMI≥25 | `I9_HEARTFAIL_AND_OVERWEIGHT` | 25,129 / 204,333 |
@@ -52,7 +59,7 @@ Download URLs:
 ├── LICENSE
 ├── CITATION.cff
 ├── docs/                 # analysis reports and interpretation
-├── scripts/              # numbered pipeline (00 → 43)
+├── scripts/              # numbered pipeline (00 → 46)
 ├── data/                 # NOT in git: downloaded GWAS summary statistics
 ├── results/              # small result tables
 └── logs/                 # run logs
@@ -128,11 +135,7 @@ Total download volume is approximately **5.4 GB**.
 | `docs/PAPER_SKELETON.md` | Manuscript outline, figures, discussion points |
 | `docs/STROBE_MR_checklist.md` | STROBE-MR reporting checklist |
 | `docs/FINAL_CONCLUSION.md` | Consolidated results and evidence chain |
-| `docs/STAGE2_weak_instrument_RESOLVED.md` | How the weak-instrument problem was fixed |
-| `docs/STAGE3_coloc_and_directionality.md` | Colocalisation and directionality |
-| `docs/STAGE4_supplementary_analyses.md` | Steiger, PheWAS, MRlap limitation |
-| `docs/STAGE5_stratified_finding.md` | The BMI-stratification nuance |
-| `docs/OSF_ANALYSIS_PLAN.md` | Analysis plan (for OSF deposit) |
+| `docs/OSF_ANALYSIS_PLAN.md` | Analysis plan, as deposited at OSF |
 
 ## Known limitations
 
@@ -144,7 +147,23 @@ Total download volume is approximately **5.4 GB**.
 4. The meta-analysed instrument comprises only 10 independent SNPs
 5. `MRlap` sample-overlap correction could not be run (see above)
 6. Colocalisation was performed within a single cohort (FinnGen vs FinnGen)
-7. The study was not prospectively registered
+7. The study was not prospectively registered; the analysis plan was deposited
+   retrospectively at OSF (`docs/OSF_ANALYSIS_PLAN.md`)
+
+## Citation
+
+If you use this code, please cite the archived release:
+
+```bibtex
+@software{yang2026osa,
+  author    = {Yang, Lujing and Yang, Xiaona},
+  title     = {OSA and heart failure: adiposity-shared genetic architecture},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22916622},
+  url       = {https://doi.org/10.5281/zenodo.22916622}
+}
+```
 
 ## License
 
